@@ -12,24 +12,29 @@
 <body>
   <div class="weather-App">
   <header>
-    <form>
-      <input type="search" placeholder="Enter a city..."  required />
-      <input type="submit" value="search" />
+    <form class="search-form">
+      <input type="search" placeholder="Enter a city..."  required class="search-city" />
+      <input type="submit" value="search" class="search-button" />
     
     </form>
   </header>
   <main>
+    <div class="weather-app-data">
     <div>
-    <h1>
+    <h1 class="weather-app-city">
       Johannesburg
     </h1>
-    <p>
+    <p class="weather-app-details">
       Tuesday 18:36 Dusty wind
       <br />
-      Humidity: 77%, wind: 5.15km/h
+      Humidity:<strong> 77% </strong>, wind: <strong> 5.15km/h </strong>
     </p>
     </div>
-   <div> 🌦 14 %C </div>
+    <div class="weather-app-temperature-container">
+   <div class="weather-app-icon"> 🌦 </div>
+   <div class="weather-app-temperature-degrees">12</div>
+   <div class="weather-app-unit"> &deg;C </div>
+    </div>
   </main>
   </div>
   
