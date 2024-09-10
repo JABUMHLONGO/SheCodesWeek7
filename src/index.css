@@ -97,3 +97,38 @@ color: white;
 margin-left: 5px;
 font-size: 16px;
 }
+
+
+.weather-forecast-day {
+  text-align: center;
+  color: blueviolet;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  color: blueviolet;
+}
+
+.weather-forecast-temperatures strong {
+  padding: 0 10px;
+}
+
+.weather-forecast-temperature {
+  /* If you still want to use this class, ensure it's handled separately */
+  padding: 0 10px;
+  color: blueviolet;
+}
+
+footer {
+  font-size: 14px;
+  font-weight: 
+}
